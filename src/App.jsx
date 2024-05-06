@@ -8,10 +8,12 @@ import New from './components/New'
 import Movies from './components/Movies'
 import Home from './components/Home'
 import FetchApi from './components/FetchApi'
+import TvShow from './components/TvShow'
+import Game from './components/Game'
 
 const App = () => {
   return (
-    <div>
+    <div className=' bg-black text-white px-36'>
      
       <Router>
         <Navagition/>
@@ -22,6 +24,8 @@ const App = () => {
             <Route path='New' element={<New/>}/>
             <Route path='/Movies' element={<Movies/>}/>
             <Route path='/FetchApi' element={<FetchApi/>}/>
+            <Route path='/TvShow' element={<TvShow/>}/>
+            <Route path='/Game' element={<Game/>}/>
             </Route>
        </Routes>
       </Router>

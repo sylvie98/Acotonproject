@@ -6,7 +6,7 @@ import New from './New'
 
 const Homepage = () => {
   return (
-    <div className='bg-black text-white'> 
+    <div> 
    
     <Home/>
     <Movies/>

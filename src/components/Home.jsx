@@ -3,7 +3,7 @@ import { BiSolidRightArrowCircle } from 'react-icons/bi'
 
 const Home = () => {
   return (
-    <div className='flex justify-between pt-10 bg-black text-white px-36'>
+    <div className='flex justify-between pt-10 h-[50rem]'>
         <div className=' flex flex-col gap-4 mt-40'>
             <h1>FIND MOVIES</h1>
             <h2 className='bg-gradient-to-r from-blue-500 to-red-600 inline-block text-transparent bg-clip-text text-4xl font-bold'>TV SHOWS AND MORE</h2>
