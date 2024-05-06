@@ -10,7 +10,7 @@ const Navagition = () => {
         <ul className=' flex gap-5'>
             
             <Link to={"/Home"}><a>Home</a></Link>
-            <a>Experince</a>
+            <Link to={'/FetchApi' }><a>Experince</a></Link>
             <a>Game</a>
             <Link to={"/New"}><a>News</a></Link>
             <Link to={"/Movies"}><a>Movies</a></Link>
