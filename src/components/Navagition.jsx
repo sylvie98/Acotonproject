@@ -1,15 +1,19 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navagition = () => {
   return (
-    <div className=' flex '>
-        <ul>
-            <a>Movies Bazer</a>
-            <a>Home</a>
+    <div className=' flex  justify-between font-serif bg-black text-white px-36'>
+      <div className='flex'>
+        <Link to={"/"}><img src="/movie.png" alt=""  className=' w-28 text-white'/></Link>
+      </div>
+        <ul className=' flex gap-5'>
+            
+            <Link to={"/Home"}><a>Home</a></Link>
             <a>Experince</a>
             <a>Game</a>
-            <a>News</a>
-            <a>Movies</a>
+            <Link to={"/New"}><a>News</a></Link>
+            <Link to={"/Movies"}><a>Movies</a></Link>
             <a>Tv Shows</a>
         </ul>
     </div>
