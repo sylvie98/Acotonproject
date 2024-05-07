@@ -30,7 +30,8 @@ const TvShow = () => {
             {data.map((item)=>(
                 <div key={item.id}>
                     <img src={`https://image.tmdb.org/t/p/w500${item.poster_path}`}/>
-                    <p>{item.title}</p>
+                    <p>{item.name}</p>
+                    <p>{item.first_air_date}</p>
                 </div>
             ))}
 
